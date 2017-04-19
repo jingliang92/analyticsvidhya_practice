@@ -62,4 +62,4 @@ write.csv(result_sub, file = 'D:/analyticsvidhya_practice/result_sub.csv', row.n
 
 ![](https://68.media.tumblr.com/a65a64902e53e5609cc3356726e58941/tumblr_oom6xfpqX01w13vv3o1_540.png)
 
-[详见博客]()
+[详见博客](https://jingliang92.github.io/jingliang-blog/2017/04/10/datapractice/)
