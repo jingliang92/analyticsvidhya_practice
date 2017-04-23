@@ -89,6 +89,7 @@ hotcode <- function(train, test){
   c <- list(train, test)
   train_test <- rbindlist(c, fill = TRUE)
   train_test <- data.frame(train_test)
+  train_test[,3:dim(train_test)[2]] <- lapply(train_test[,3:dim(train_test)[2]], as.numeric)
   return(train_test)               
   
 }
