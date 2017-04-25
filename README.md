@@ -43,7 +43,7 @@ test <- subset(test, select=-c(City_Category_C, Stay_In_Current_City_Years_4))
 ## xgboost model
 
 ```
-source('D:/analyticsvidhya_practice/xgboost.R')
+source('D:/xgboost_trian/xgboost.R')
 ctrl <- trainControl(method = "repeatedcv", number = 1)
 xgbgrid <- expand.grid(eta=0.26, gamma=0.1, max_depth=10,
                        min_child_weight=11, max_delta_step=0, subsample=1,
